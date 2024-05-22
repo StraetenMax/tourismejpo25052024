@@ -58,10 +58,10 @@
     <mj-section background-color="#ffffff">
       <mj-group>
         <mj-column width="50%" padding="8px">
-          <mj-image align="right" padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/661656a4d7997d17f5f87bd7.jpg" width="110px" alt="Clément Duhamel responsable pédagogique Ecosup Tourisme "/>
+          <mj-image align="right" padding="0" src="https://i.ibb.co/wWHLFJT/Clementjpo25052024.jpg" width="120px" alt="Clément Duhamel responsable pédagogique Ecosup Tourisme "/>
         </mj-column>
         <mj-column width="50%" padding="8px">
-          <mj-text padding="0" mj-class="d-text">À Samedi !</mj-text>
+          <mj-text padding-top="20px" padding-left="0" padding-right="0" mj-class="d-text">À Samedi !</mj-text>
           <mj-text padding="0" mj-class="d-text"><strong>Clément <span style="text-transform:uppercase">Duhamel</span></strong></mj-text>
           <mj-text padding="0" mj-class="d-text">Responsable pédagogique</mj-text>
           <mj-text padding="0" mj-class="d-text">Ecosup Tourisme</mj-text>
