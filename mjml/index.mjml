@@ -1,0 +1,117 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>JPO du 25 mai 2024 Ecosup Tourisme</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&amp;display=swap"/>
+    <mj-attributes>
+      <mj-class name="d-titre" font-size="38px" line-height="40px" font-weight="700" color="#1F3C90"/>
+      <mj-class name="d-sous-titre" font-size="16px" line-height="20px" font-weight="700" color="#787FBD"/>
+      <mj-class name="d-date" font-size="20px" line-height="24px" font-weight="700" color="#1F3C90"/>
+      <mj-class name="d-text" font-size="16px" line-height="20px" color="#14141f"/>
+      <mj-class name="d-lieu" font-size="16px" line-height="20px" color="#626262"/>
+      <mj-class name="d-adress" font-size="13px" line-height="15px" color="#FFFFFF"/>
+      <mj-class name="d-admin" align="center" font-size="12px" line-height="16px" color="#626262"/>
+      <mj-all font-family="Roboto, Arial, Helvetica,sans serif" font-weight="400"/>
+    </mj-attributes>
+    <mj-style>
+      @media(max-width:480px){
+          .m-footer{
+              text-align: center !important;
+          }
+          .m-footer1{
+              width: 100% !important;
+          }
+          .m-footer2 {
+              text-align: center !important;
+              width: 100% !important;
+              padding-top:10px !important;
+          }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#efefef">
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text mj-class="d-admin">Si vous ne parvenez pas à lire cet e-mail, cliquez <a href="{{ mirror }}">ici</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column width="600px">
+        <mj-image padding="0" href="https://ecosup-tourisme.fr" src="https://img.mailinblue.com/3403292/images/content_library/original/66165699897809c7d1272410.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 25 mai 2024"/>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column width="530px">
+        <mj-text align="center" padding-bottom="0" mj-class="d-titre">Invitation à la Journée Portes Ouvertes</mj-text>
+        <mj-text align="center" padding-top="0" mj-class="d-sous-titre" text-transform="uppercase">Gagnez en compétences avec Ecosup Tourisme !</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column width="530px">
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-text"><strong>{{ contact.PRENOM }}</strong>, les métiers du Tourisme vous intéressent et vous souhaitez entreprendre une <strong>formation en alternance</strong> ?</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-text"><strong>ECOSUP Tourisme</strong> vous ouvre ses portes ce </mj-text>
+        <mj-text align="center" mj-class="d-date">Samedi 25 mai de 9h30 à 13h.</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">Venez découvrir notre campus et rencontrer nos intervenants professionnels.</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">Des questions ? Alors rendez-vous ce samedi, toute notre équipe se tiendra à votre disposition pour présenter l'ensemble de nos formations.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-group>
+        <mj-column width="50%" padding="8px">
+          <mj-image align="right" padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/661656a4d7997d17f5f87bd7.jpg" width="110px" alt="Clément Duhamel responsable pédagogique Ecosup Tourisme "/>
+        </mj-column>
+        <mj-column width="50%" padding="8px">
+          <mj-text padding="0" mj-class="d-text">À Samedi !</mj-text>
+          <mj-text padding="0" mj-class="d-text"><strong>Clément <span style="text-transform:uppercase">Duhamel</span></strong></mj-text>
+          <mj-text padding="0" mj-class="d-text">Responsable pédagogique</mj-text>
+          <mj-text padding="0" mj-class="d-text">Ecosup Tourisme</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#dfdfdf">
+      <mj-column width="530px">
+        <mj-text font-size="18px" font-weight="700" color="#1f3c90" mj-class="d-lieu" text-transform="uppercase">Comment s'y rendre ?</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-lieu"><b style="color:#1F3C90">Accès Métro :</b> Ligne 2 - station Tourcoing Centre.</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-lieu"><b style="color:#1F3C90">Accès Tramway :</b> Terminus Tourcoing Centre.</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-lieu"><b style="color:#1F3C90">Accès Bus :</b> Gare routière de Tourcoing.</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-lieu"><b style="color:#1F3C90">Accès Train :</b> Gare de Tourcoing puis station de Métro Tourcoing Centre</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-lieu"><b style="color:#1F3C90">Accès Voiture :</b> Tourcoing centre.</mj-text>
+        <mj-spacer height="10px"/>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#1F3C90">
+      <mj-column width="265px">
+        <mj-text padding-top="0" padding-bottom="0" font-size="16px" font-weight="900" color="#FFFFFF" css-class="m-footer1">
+          <div class="m-footer">ECOSUP CAMPUS</div>
+        </mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-adress" color="#FFFFFF" css-class="m-footer1">
+          <div class="m-footer">17 Place Charles et Albert Roussel,</div>
+        </mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-adress" css-class="m-footer1">
+          <div class="m-footer">59200 TOURCOING</div>
+        </mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-adress" css-class="m-footer1">
+          <div class="m-footer">03.20.70.06.06</div>
+        </mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-adress" css-class="m-footer1">
+          <div class="m-footer">contact@ecosup-campus.fr</div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-social padding-top="0" padding-bottom="0" align="right" icon-size="35px" mode="horizontal" css-class="m-footer2">
+          <mj-social-element background-color="#20274F" name="facebook" href="https://www.facebook.com/EcosupCamp"></mj-social-element>
+          <mj-social-element background-color="#20274F" name="instagram" href="https://www.instagram.com/ecosup.campus/"></mj-social-element>
+          <mj-social-element background-color="#20274F" name="linkedin" href="https://linkedin.com/company/ecosup-campus"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="250px">
+        <mj-text padding="0 30px" mj-class="d-admin">Cet email a été envoyé à {{contact.EMAIL}}, vous l'avez reçu car vous êtes inscrit à Ecosup Campus.</mj-text>
+        <mj-text padding="0 30px" mj-class="d-admin"><a href="{{ unsubscribe }}">Se désinscrire</a></mj-text>
+        <mj-spacer height="20px"/>
+        <mj-text padding="0 30px" mj-class="d-admin">©2024 ECOSUP CAMPUS</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
